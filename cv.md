@@ -1,9 +1,9 @@
 # Anton Ramarchuk
-## Kontacts 
+## Contacts 
 * EMAIL: anton.ramarchuk@gmail.com
 * TEL: +48123456789
 ## Information
-Im workin as a DATA SIENTIS in a construction company for over 2 years.
+Im working as a DATA SCIENTIST in a construction company for over 2 years.
 ## *SKILLS*
 * SQL
 * BigQuery
@@ -13,9 +13,9 @@ Im workin as a DATA SIENTIS in a construction company for over 2 years.
 * Looker studio
 * MS OFFICE
 ## *Experience*
-* Construction company
+* Construction Company
 * DPD
 ## *Education*
-* Warsaw university of technology
+* Warsaw University of Technology
 ## *English level*
 * C1
