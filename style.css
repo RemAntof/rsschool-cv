@@ -23,8 +23,9 @@ body{
     color: #4d2323;
   }
   .container {
-    max-width: 1440px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
   }
   .nav-list {
     display: flex;
@@ -118,4 +119,9 @@ body{
   }
   .image-footer{
     align-items: right;
+    width: 100px;
+    height: 40px;
+    margin-left: 70%;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
