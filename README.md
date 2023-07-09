@@ -1,3 +1,1 @@
-first line of text
-add more text
-another line of text
+https://RemAntof.github.io/rsschool-cv/
