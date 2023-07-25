@@ -148,6 +148,7 @@ p{
     line-height: 40px;
     font-weight: 400;
     margin-top: 40px;
+    margin-right: 0px;
 }
 .slides{
     display: flex;
@@ -180,4 +181,116 @@ p{
 }
 .circle.brown {
     background-color: #BB945F;
+}
+
+.section-favorite{
+    width: 1440px;
+    height: 1439px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.favorite-text{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+.radio-item{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    font-size: 20px;
+    line-height: 24.2px;
+    padding: 5px;
+    gap: 20px;
+    font-weight: 400;
+}
+.radio-box{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 90px;
+}
+.frame-list{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.frame-item{
+    width: 550px;
+    height: 555px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: #0C0C0E solid 2px ;
+}
+.text-frame{
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+h3{
+    font-family: 'Forum', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h5{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.underline-frame{
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 60px;
+    border: #BB945F solid 1px;
+}
+.button-frame{
+    width: 70px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+}
+.book-frame{
+    height: 300px;
+    width: 200px;
+    margin-top: 275px;
+    margin-left: -160px;
+}
+.place-book{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
