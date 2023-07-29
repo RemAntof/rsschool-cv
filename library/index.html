@@ -4,6 +4,7 @@
     <title>library</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
@@ -16,11 +17,11 @@
             <div>
                 <nav>
                     <ul class="nav-list">
-                        <li class="nav-item">About</li>
-                        <li class="nav-item">Favorites</li>
-                        <li class="nav-item">Coffe shop</li>
-                        <li class="nav-item">Contacts</li>
-                        <li class="nav-item">Library Card</li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#favorites" class="nav-link">Favorites</a></li>
+                        <li class="nav-item"><a href="coffe" class="nav-link">Coffe shop</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#card" class="nav-link">Library Card</a></li>
                     </ul>
             </nav>
         </div>
@@ -35,7 +36,7 @@
                 <h2 class="welcome-text">Welcome<br> to the Brooklyn<br> Library</h2>
             </div>
         </section>
-        <section class="section-about">
+        <section class="section-about"  id="about">
             <h2>About</h2>
             <div class="underline"></div>
             <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
@@ -56,7 +57,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-favorite">
+        <section class="section-favorite"  id="favorites">
             <h2>Favorites</h2>
             <div class="underline"></div>
             <p class="favorite-text">Pick favorites of season</p>
@@ -161,7 +162,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-coffee">
+        <section class="section-coffee"  id="coffe">
             <h2>Coffee Shop</h2>
             <div class="underline"></div>
             <p>In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.</p>
@@ -258,7 +259,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-our-contacts">
+        <section class="section-our-contacts" id="contacts">
             <h2>Our Contacts</h2>
             <div class="underline"></div>
             <div class="contacts-position">
@@ -281,7 +282,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-card">
+        <section class="section-card"  id="card">
             <h2>Digital Library Cards</h2>
             <div class="underline"></div>
             <div class="card-position">
@@ -316,9 +317,45 @@
         </section>
     </main>
     <footer>
-        <ul>
-            <li></li>
-        </ul>
+        <div class="footer-first-box">
+            <div>
+                <div>
+                    <div class="footer-cadman"> <a href="https://www.bklynlibrary.org/" class="footer-link">286 Cadman Plaza, New York, NY 11238, United States</a></div>
+                    <ul class="footer-ul">
+                        <li>
+                            <a href="https://twitter.com/">
+                                <img src="assets/footer-icons/icon-twitter.png" alt="Twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/">
+                                <img src="assets/footer-icons/icon-inst.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">
+                                <img src="assets/footer-icons/icon-facebook.png" alt="Facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-time">
+                <div>Mon - Fri<br>
+                    08:00 am - 07:00 pm
+                </div>
+                <div>
+                    Sat - Sun<br>
+                    10:00 am - 06:00 pm
+                </div>
+            </div>
+        </div>
+        <div class="footer-underline"></div>
+        <div class="footer-second-box">
+            <div>2023</div>
+            <div><a href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0" class="footer-link">The Rolling Scopes School</a></div>
+            <div><a href="https://github.com/RemAntof" class="footer-link">RemAntof</a></div>
+        </div>
     </footer>
 </body>
 </html>
