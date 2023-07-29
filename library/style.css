@@ -371,3 +371,88 @@ h6{
     flex-direction: row;
     align-items: center;
 }
+.section-our-contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 575px;
+}
+.contacts-position{
+    margin: 40px 20px;
+    width: 1400px;
+    height: 414px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacts-container{
+    display: flex;
+    flex-direction: column;
+    width: 503px;
+    height: 380px;
+    margin-bottom: 40px;
+}
+.contacts-container:last-child{
+    margin-bottom: 0px;
+}
+.contacts-text-up{
+    height: 40px;
+}
+.contacts-text{
+    text-align: start;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-top:0px;
+    margin-bottom: 20px;
+    white-space:pre;
+}
+.contacts-normal-text{
+    font-weight: 400;
+}
+.contacts-text-midle{
+    height: 160px;
+
+}
+.contacts-text-down{
+    height: 100px;
+}
+.contacts-map{
+    width: 696px;
+    height: 414px;
+}
+a[href^="(617)"] {
+	color: inherit;
+    text-decoration:none
+}
+a[href^="Ama"] {
+	color: inherit;
+    text-decoration:none
+}
+.section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 614px;
+}
+.card-find{
+    width: 600px;
+    height: 453px;
+}
+.card-border{
+    width: 560px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px 114px 20px;
+    border: #BB945F solid 3px;
+}
+.card-box{
+    
+}
