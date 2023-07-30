@@ -7,6 +7,7 @@
   }
   html {
     scroll-behavior: smooth;
+    background-color: #FFFFFF ;
   }
   html {
     margin: 0;
@@ -229,7 +230,24 @@ p{
     padding: 5px;
     gap: 20px;
     font-weight: 400;
+    position: relative;
 }
+.radio-item::after{
+    content:'';
+    position:absolute;
+    margin-top: 2px;
+    width: 110%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #BB945F;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+  }
+  .radio-item:hover::after {
+    transform: scaleX(1);
+  }
 .radio-box{
     margin-top: 20px;
     margin-left: 20px;
@@ -260,10 +278,19 @@ p{
 }
 .text-frame{
     text-align: left;
-    margin-left: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    width: 335px;
+    text-transform: capitalize;
+}
+.frame_place{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 h3{
     font-family: 'Forum', cursive;
@@ -298,8 +325,6 @@ h5{
 .button-frame{
     width: 70px;
     height: 30px;
-    margin-left: 20px;
-    margin-top: 10px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 10px;
@@ -634,4 +659,8 @@ button{
 button:hover{
     background-color: #BB945F;
     border-color: #BB945F;
+}
+button:disabled:hover{
+    background-color: #FFFFFF;
+    cursor:not-allowed;
 }
