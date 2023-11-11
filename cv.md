@@ -15,6 +15,7 @@ Im working as a DATA SCIENTIST in a construction company for over 2 years.
 ## *Experience*
 * Construction Company
 * DPD
+* Carrefour
 ## *Education*
 * Warsaw University of Technology
 ## *English level*
